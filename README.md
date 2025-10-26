@@ -412,7 +412,106 @@ git push origin feature/amazing-feature
 ---
 
 <div align="center">
+ 📱 Application Screenshots
 
+<div align="center">
+
+### 🚜 Farmer and User Views
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/89db8dee-c392-446c-bfda-56a6dc98d5aa" alt="Login Page" width="200"/>
+      <br/>
+      <strong>🔐 Login Page</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b106d20a-9b97-4dd1-b248-27982430feef" alt="User Role Selection" width="200"/>
+      <br/>
+      <strong>👥 User Role Selection</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a455b447-d45d-4cc8-991a-0fd709955f97" alt="Farmer Dashboard" width="200"/>
+      <br/>
+      <strong>🚜 Farmer Dashboard</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/92cb8207-d5c6-484e-93b5-0230d2431639" alt="Order Tracking" width="200"/>
+      <br/>
+      <strong>📦 Order Tracking</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0a6e4e67-a922-4c9b-9bfc-8311c644908f" alt="Price Forecast" width="200"/>
+      <br/>
+      <strong>📈 Price Forecast</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d5a4f573-0725-4c3d-b70b-59011ed5340f" alt="Processing Page" width="200"/>
+      <br/>
+      <strong>🏭 Processing Page</strong>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🏭 Processor and Inventory Views
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b560a379-f774-4747-ad3e-a615dc3ba119" alt="Processor Dashboard" width="200"/>
+      <br/>
+      <strong>⚙️ Processor Dashboard</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/000ea41e-a5e1-4e5e-bd77-63747eb95ed3" alt="Inventory Management" width="200"/>
+      <br/>
+      <strong>📦 Inventory Management</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/bcdd8d3d-6057-4c26-b7b2-98c3c7e8a2e5" alt="Blockchain Test UI" width="200"/>
+      <br/>
+      <strong>🔐 Blockchain Test UI</strong>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🧠 AI and Administration Views
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7b33618b-306a-462b-81e3-f631c9c8fd4e" alt="AI and Analytics Dashboard" width="200"/>
+      <br/>
+      <strong>🧠 AI and Analytics Dashboard</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b02792dd-0fca-45d3-9b33-31b350e8f311" alt="Admin Dashboard" width="200"/>
+      <br/>
+      <strong>🛠️ Admin Dashboard</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/87b15962-ef19-4f34-8cbc-3554e9bf2cc4" alt="Real Blockchain Test" width="200"/>
+      <br/>
+      <strong>✅ Real Blockchain Test</strong>
+    </td>
+  </tr>
+</table>
+
+</div>
 ### **🌾 Built with ❤️ for India's Farmers 🇮🇳**
 
 **"From Farm to Fork - Empowering India's Edible Oil Future with Blockchain Transparency"**
