@@ -1,0 +1,58 @@
+name: agritrace
+description: AgriTrace - Agricultural blockchain traceability platform
+
+# Updated to set stable version
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Material design
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  
+  # State management and utilities
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  
+  # Maps and location
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.4+3
+  location: ^5.0.3
+  
+  # HTTP requests and data handling
+  http: ^1.2.0
+  
+  # Charts and data visualization  
+  fl_chart: ^0.65.0
+  
+  # QR code functionality
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.2.3
+  
+  # File and image handling
+  image_picker: ^1.0.4
+  
+  # Environment variables
+  flutter_dotenv: ^6.0.0
+  
+  # URL launcher
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
+    - assets/images/
