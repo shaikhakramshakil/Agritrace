@@ -1,12 +1,13 @@
-# 🌾 AgriTrace - AI-Enabled Edible Oil Value Chain Platform
+# 🌾 AgriTrace - AI-Enabled Edible Oil Value Chain Platform with Blockchain Traceability
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.13+-02569B?logo=flutter)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.1+-0175C2?logo=dart)](https://dart.dev)
 [![Android](https://img.shields.io/badge/Android-5.0+-34A853?logo=android)](https://developer.android.com)
-[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/shaikhakramshakil/Agritrace/releases)
+[![Blockchain](https://img.shields.io/badge/Blockchain-IPFS%20%26%20Pinata-4B32C3?logo=ethereum)](https://pinata.cloud)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-green)](https://github.com/shaikhakramshakil/Agritrace/releases)
 
-> **Empowering India's Edible Oil Future through Digital Innovation**  
-> *Solving India's 55-60% import dependency challenge through AI-powered agricultural value chain management*
+> **Empowering India's Edible Oil Future through Digital Innovation & Blockchain Transparency**  
+> *Solving India's 55-60% import dependency challenge through AI-powered agricultural value chain management with immutable blockchain traceability*
 
 ---
 
@@ -14,7 +15,7 @@
 
 ### 🚀 Quick Install (Recommended)
 
-**� [Download Latest Release](https://github.com/shaikhakramshakil/Agritrace/releases/latest)**
+**[Download Latest Release](https://github.com/shaikhakramshakil/Agritrace/releases/latest)**
 
 Choose the right APK for your device:
 
@@ -41,7 +42,7 @@ Choose the right APK for your device:
 
 ---
 
-## �📋 Table of Contents
+## 📋 Table of Contents
 
 - [📱 Try AgriTrace Now](#-try-agritrace-now---download-apk)
 - [🎯 Problem Statement](#-problem-statement)
@@ -98,10 +99,11 @@ India faces a **critical edible oil crisis** - despite being an agricultural pow
    - Weather-based advisories
 
 2. **🔗 End-to-End Traceability**
-   - Blockchain-based supply chain
-   - QR code product verification
-   - Quality assurance tracking
-   - Origin authentication
+   - **Real Blockchain Implementation** using Pinata IPFS for immutable records
+   - Decentralised Records dashboard with blockchain ledger visualization
+   - QR code product verification with cryptographic signatures
+   - Quality assurance tracking with tamper-proof audit trails
+   - Origin authentication through distributed ledger technology
 
 3. **📊 Real-Time Market Linkage**
    - Direct farmer-buyer connections
@@ -182,15 +184,31 @@ India faces a **critical edible oil crisis** - despite being an agricultural pow
 - **FL Chart** - Interactive data visualizations
 
 ### 🔗 **Blockchain & Security**
-- **Immutable Ledger** - Supply chain transparency
-- **QR Code Integration** - Product traceability
-- **Secure Authentication** - Multi-role access control
+- **Pinata IPFS** - Decentralized file storage for immutable records
+- **Cryptographic Hashing** - SHA-256 for data integrity verification
+- **QR Code Integration** - Product traceability with blockchain verification
+- **Secure Authentication** - Multi-role access control with encrypted sessions
+- **Decentralised Records** - Blockchain ledger visualization and monitoring
 
 ### 🌐 **Integrations**
-- **Google Maps API** - Location services and warehouse mapping
+- **Google Maps API** - Location services and warehouse mapping with error handling
 - **Weather APIs** - Real-time agricultural advisories
 - **Payment Gateways** - Secure transactions
 - **Government APIs** - Scheme integration and compliance
+- **Gemini AI** - Enhanced warehouse data generation with JSON validation
+
+---
+
+## 🆕 **Recent Updates & Improvements**
+
+### 🔧 **Latest Release Features**
+
+- **🚀 Real Blockchain Implementation:** Integrated Pinata IPFS for decentralized, immutable record storage
+- **📊 Decentralised Records Dashboard:** Professional blockchain ledger interface replacing traditional admin tabs
+- **🗺️ Enhanced Google Maps Integration:** Fixed loading issues with proper defer loading and error handling
+- **🔍 Improved Data Processing:** Robust JSON parsing with validation and fallback mechanisms for warehouse data
+- **⚡ Performance Optimizations:** Added timeout protection and graceful error handling for AI services
+- **🎨 UI/UX Improvements:** Streamlined admin interface with focus on blockchain monitoring capabilities
 
 ---
 
@@ -249,27 +267,65 @@ flutter build appbundle --release
 lib/
 ├── main.dart                 # App entry point
 ├── screens/                  # All UI screens
+│   ├── admin/               # Admin dashboard with Decentralised Records
+│   ├── logistics/           # Warehouse mapping with Google Maps
 │   ├── farmer/              # Farmer-specific screens
 │   ├── fpo/                 # FPO screens
-│   ├── processor/           # Processor screens
 │   └── ...                  # Other roles
 ├── services/                # API services
+│   ├── gemini_ai_service.dart    # AI-powered data generation
+│   ├── pinata_service.dart       # Blockchain IPFS integration
+│   └── google_maps_service.dart  # Maps and location services
 ├── widgets/                 # Reusable components
-└── utils/                   # Helper functions
+├── models/                  # Data models
+└── utils/                   # Helper functions and blockchain utilities
 ```
 
-### 🧪 Testing
+### 🧪 Testing Blockchain Implementation
 
-```bash
-# Run tests
-flutter test
+To ensure the blockchain integration is functioning as expected, follow these steps:
 
-# Generate coverage
-flutter test --coverage
+1. **Set Up Environment:**
+   - Ensure you have the required API keys for Pinata IPFS in your `.env` file.
+   - Example:
+     ```env
+     PINATA_API_KEY=your_api_key
+     PINATA_SECRET_API_KEY=your_secret_api_key
+     ```
 
-# Analyze code
-flutter analyze
-```
+2. **Run the App:**
+   - Start the app using the following command:
+     ```bash
+     flutter run
+     ```
+
+3. **Access Blockchain Features:**
+   - Navigate to the **Decentralised Records Dashboard** in the admin panel.
+   - Upload a sample record to test the blockchain storage.
+
+4. **Verify Record on IPFS:**
+   - After uploading, the app will generate an IPFS hash.
+   - Use the hash to verify the record on the [IPFS Gateway](https://ipfs.io/ipfs/).
+
+5. **Test QR Code Verification:**
+   - Generate a QR code for the uploaded record.
+   - Scan the QR code using the app to ensure it retrieves the correct blockchain data.
+
+6. **Check Logs:**
+   - Monitor the app logs for any errors or confirmation messages related to blockchain operations.
+   - Example log messages:
+     - `Record successfully uploaded to IPFS.`
+     - `QR code generated for record.`
+
+7. **Run Unit Tests:**
+   - Execute the blockchain-related unit tests to validate the implementation:
+     ```bash
+     flutter test --name blockchain
+     ```
+
+8. **Troubleshooting:**
+   - If you encounter issues, ensure the API keys are correct and the Pinata service is accessible.
+   - Check the network connection and retry the operation.
 
 ---
 
@@ -341,6 +397,17 @@ git push origin feature/amazing-feature
 - **Content:** Contribute to crop planning algorithms and best practices
 - **Outreach:** Help onboard farmers and FPOs in your region
 
+---
+
+##  **Acknowledgments**
+
+- **🏛️ Ministry of Agriculture & Farmers Welfare, Government of India**
+- **🌾 National Mission on Edible Oils–Oil Palm (NMEO-OP)**
+- **👨‍🌾 Farmers and FPOs** who provided invaluable feedback
+- **🔗 Pinata IPFS** for powering decentralized blockchain storage
+- **🤖 Google Gemini AI** for powering intelligent recommendations
+- **🗺️ Google Maps Platform** for location services and warehouse mapping
+- **💙 Flutter & Dart teams** for the excellent framework
 
 ---
 
@@ -348,12 +415,14 @@ git push origin feature/amazing-feature
 
 ### **🌾 Built with ❤️ for India's Farmers 🇮🇳**
 
-**"From Farm to Fork - Empowering India's Edible Oil Future"**
+**"From Farm to Fork - Empowering India's Edible Oil Future with Blockchain Transparency"**
 
 ---
 
-**⭐ Star this repository if you believe in digital agriculture!**
+**⭐ Star this repository if you believe in digital agriculture & blockchain innovation!**
 
 **📱 [Download AgriTrace](https://github.com/shaikhakramshakil/Agritrace/releases) | 🐛 [Report Issues](https://github.com/shaikhakramshakil/Agritrace/issues) | 🤝 [Contribute](https://github.com/shaikhakramshakil/Agritrace/blob/main/CONTRIBUTING.md)**
+
+**🔗 Blockchain Explorer:** Access Decentralised Records through the admin dashboard
 
 </div>
