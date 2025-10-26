@@ -380,56 +380,6 @@ git push origin feature/amazing-feature
 
 ---
 
-## 📱 Application Screenshots  
-
-### 🌾 Farmer & FPO Views  
-**Home Dashboard**  
-🏠 Real-time crop and market insights  
-
-**Advisory Section**  
-🌦️ Weather & pest management alerts powered by AI  
-
-**Data Input Screen**  
-📊 Crop details and production data entry  
-
----
-
-### 🏭 Processor & Retailer Views  
-**Procurement Dashboard**  
-🚚 Real-time procurement, pricing, and warehouse overview  
-
-**Blockchain Traceability**  
-🔗 Farm-to-market transaction records for full transparency  
-
-**Analytics Dashboard**  
-📈 Demand–supply trends and predictive insights  
-
----
-
-### 🏦 Financial & Policy Views  
-**Credit & Insurance Module**  
-💰 Performance-based credit score and insurance facilitation  
-
-**Policy Dashboard**  
-📋 Aggregated data insights for government and policymakers  
-
-*Admin Dashboard**  
-🧩 Role-based control panel for managing users, data, and platform analytics  
-
----
-
-> *(Add your screenshots below each section using Markdown image tags — example:)*  
-
-```markdown
-  
-![Advisory Section](screenshots/advisory_screen.png)  
-![Procurement Dashboard](screenshots/procurement.png)  
-![Analytics Dashboard](screenshots/analytics.png)  
-![Credit Module](screenshots/credit_module.png)
-![Home Dashboard](https://github.com/user-attachments/assets/de69caca-f398-49ad-a926-50165af45224)
-![Home Dashboard](https://github.com/user-attachments/assets/963ba6bf-df51-47ed-a5c0-ae35fc7d4c93)
-
-
 <div align="center">
 
 ### **🌾 Built with ❤️ for India's Farmers 🇮🇳**
