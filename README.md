@@ -2,482 +2,394 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.13+-02569B?logo=flutter)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.1+-0175C2?logo=dart)](https://dart.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Android](https://img.shields.io/badge/Android-5.0+-34A853?logo=android)](https://developer.android.com)
+[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/shaikhakramshakil/Agritrace/releases)
 
-**Empowering India's Edible Oil Future through Digital Innovation**
+> **Empowering India's Edible Oil Future through Digital Innovation**  
+> *Solving India's 55-60% import dependency challenge through AI-powered agricultural value chain management*
 
 ---
 
-## 📋 Table of Contents
+## 📱 **Try AgriTrace Now - Download APK**
 
-- [Problem Statement](#-problem-statement)
-- [Solution Overview](#-solution-overview)
-- [Key Features](#-key-features)
-- [Technology Stack](#-technology-stack)
-- [Installation](#-installation)
-- [User Roles](#-user-roles)
-- [Screenshots](#-screenshots)
-- [Architecture](#-architecture)
-- [Contributing](#-contributing)
-- [License](#-license)
+### 🚀 Quick Install (Recommended)
+
+**� [Download Latest Release](https://github.com/shaikhakramshakil/Agritrace/releases/latest)**
+
+Choose the right APK for your device:
+
+| Device Type | APK File | Size | Best For |
+|-------------|----------|------|----------|
+| **📱 Most Modern Phones** | `app-arm64-v8a-release.apk` | ~30MB | **Recommended** - Android phones 2019+ |
+| **📱 Older Phones** | `app-armeabi-v7a-release.apk` | ~35MB | Android phones 2011-2019 |
+| **📱 All Devices** | `app-release.apk` | ~66MB | Universal (works on any Android) |
+
+### 📋 Installation Steps
+
+1. **Download APK** from the link above
+2. **Enable Unknown Sources:**
+   - Go to Settings → Security → Install Unknown Apps
+   - Select your browser → Enable "Allow from this source"
+3. **Install:** Tap the downloaded APK file and follow prompts
+4. **Launch:** Open AgriTrace and start exploring!
+
+### ⚠️ First Time Setup
+
+- **Internet Required:** For AI recommendations and real-time data
+- **Permissions Needed:** Camera (QR scanning), Location (maps), Storage
+- **Optional Login:** You can explore without creating an account
+
+---
+
+## �📋 Table of Contents
+
+- [📱 Try AgriTrace Now](#-try-agritrace-now---download-apk)
+- [🎯 Problem Statement](#-problem-statement)
+- [💡 Solution Overview](#-solution-overview)
+- [✨ Key Features by User Role](#-key-features-by-user-role)
+- [🛠️ Technology Stack](#-technology-stack)
+- [👥 For Developers](#-for-developers)
+- [🎯 Impact & Goals](#-impact--goals)
+- [🤝 Contributing](#-contributing)
 
 ---
 
 ## 🎯 Problem Statement
 
-### Background
+India faces a **critical edible oil crisis** - despite being an agricultural powerhouse, we import **55-60% of our edible oil needs**, costing over **₹1 lakh crore annually** in foreign exchange.
 
-Despite significant growth in oilseed production, **India remains heavily dependent on imports** for **55-60% of its edible oil needs**, draining foreign exchange and exposing farmers to global market volatility.
+### 📊 The Challenge
 
-**Key Challenges:**
+| Issue | Current State | Target (2030-31) |
+|-------|---------------|------------------|
+| **Production** | 42.61 MT | 69 MT (NMEO-OP Goal) |
+| **Import Dependency** | 55-60% | Reduce to 30% |
+| **Annual Import Bill** | ₹1+ lakh crore | Save ₹50,000+ crore |
+| **Value Chain Efficiency** | Fragmented | Integrated & Digital |
 
-- 📊 **Production Gap:** While production increased from 27.51 million tonnes (2014-15) to 42.61 million tonnes (2024-25), domestic demand of 27.8 million tonnes still requires imports worth **over ₹1 lakh crore**
-- 🎯 **Ambitious Target:** Government's National Mission on Edible Oils–Oil Palm (NMEO-OP) aims to **double production to 69 million tonnes by 2030-31**
-- 🔗 **Value Chain Fragmentation:** Lack of seamless coordination among farmers, FPOs, processors, and retailers
-- 📉 **Post-Harvest Losses:** Inefficient logistics and storage infrastructure
-- 💰 **Market Volatility:** Farmers exposed to unpredictable price fluctuations
+### 🔗 Root Causes
 
-### Platform Objectives
-
-Develop an **AI-enabled value chain platform** to:
-
-✅ Ensure seamless coordination among all stakeholders  
-✅ Optimize logistics and minimize post-harvest losses  
-✅ Integrate predictive analytics for demand-supply trends  
-✅ Provide AI-powered advisories for crop planning  
-✅ Enable direct farmer-to-market linkages  
-✅ Facilitate credit and insurance with performance-based incentives  
+- **Fragmented Value Chain:** Poor coordination between farmers, processors, and retailers
+- **Information Gap:** Farmers lack access to market prices and demand forecasts
+- **Post-Harvest Losses:** 15-20% losses due to poor logistics and storage
+- **Limited Credit Access:** Small farmers struggle with financing and insurance
+- **Price Volatility:** Unpredictable markets expose farmers to losses
 
 ---
 
 ## 💡 Solution Overview
 
-**AgriTrace** is a comprehensive digital ecosystem that addresses India's edible oil self-sufficiency challenge through:
+**AgriTrace** is India's first **AI-enabled comprehensive edible oil value chain platform** that connects every stakeholder from farm to fork.
 
-### 🎯 Core Solution Components
+### 🎯 Our Approach
 
-1. **AI-Powered Decision Support**
-   - Real-time predictive analytics for demand-supply trends
-   - Price forecasting using machine learning models
-   - Weather-based crop planning advisories
-   - Pest management recommendations
+```
+🌾 Farmers → 🏢 FPOs → 🏭 Processors → 🏪 Retailers → 👨‍👩‍👧‍👦 Consumers
+        ↕️         ↕️         ↕️         ↕️
+    🤖 AI Analytics  📊 Real-time Data  🔗 Blockchain Traceability
+```
 
-2. **Blockchain-Based Traceability**
-   - End-to-end transparency from farm to fork
-   - Immutable record of produce origin and quality
-   - QR code-based product verification
-   - Supply chain integrity assurance
+### 🚀 Core Capabilities
 
-3. **Integrated Logistics Management**
-   - Real-time warehouse capacity monitoring
-   - Optimized route planning for transportation
-   - Storage facility mapping across India
-   - Predictive maintenance for infrastructure
+1. **🤖 AI-Powered Intelligence**
+   - Crop planning recommendations
+   - Market demand forecasting
+   - Price prediction algorithms
+   - Weather-based advisories
 
-4. **Direct Market Linkage**
-   - Farmer-to-buyer connections without intermediaries
-   - Real-time market price visibility
-   - Digital procurement platforms
-   - Fair trade mechanisms
+2. **🔗 End-to-End Traceability**
+   - Blockchain-based supply chain
+   - QR code product verification
+   - Quality assurance tracking
+   - Origin authentication
 
-5. **Financial Inclusion**
-   - Credit facilitation linked to farming performance
-   - Insurance advisory and claim processing
-   - Performance-based incentive tracking
-   - Digital payment integration
+3. **📊 Real-Time Market Linkage**
+   - Direct farmer-buyer connections
+   - Transparent pricing mechanisms
+   - Demand-supply matching
+   - Fair trade facilitation
+
+4. **🌐 Integrated Logistics**
+   - Warehouse capacity optimization
+   - Route planning & tracking
+   - Storage facility mapping
+   - Transportation efficiency
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features by User Role
 
-### 👨‍🌾 For Farmers
+### 👨‍🌾 **Farmers** - Smart Farming Made Simple
 
-- 🌱 **AI Crop Planning:** Get personalized crop recommendations based on soil, weather, and market demand
-- 📊 **Market Linkage:** Direct access to buyers with transparent pricing
-- 🌦️ **Weather Alerts:** Real-time weather forecasts and advisory notifications
-- 💰 **Insurance & Credit:** Easy access to government schemes and financial services
-- 📈 **Yield Tracking:** Monitor crop performance and optimize practices
+- 🤖 **AI Crop Advisor:** Get personalized recommendations for which crops to grow based on soil, weather, and market demand
+- 📈 **Market Intelligence:** See real-time prices and connect directly with buyers
+- 🌦️ **Smart Alerts:** Weather forecasts, pest warnings, and farming tips
+- 💰 **Easy Credit:** Access loans and insurance with simplified processes
+- 📱 **Simple Interface:** Designed for farmers with minimal digital experience
 
-### 🏢 For FPOs (Farmer Producer Organizations)
+### 🏢 **FPOs (Farmer Producer Organizations)** - Powerful Aggregation Tools
 
-- 📦 **Procurement Management:** Streamline farmer produce collection
-- 🏭 **Processing & Storage:** Monitor processing operations and inventory
-- 📊 **Analytics Dashboard:** Track performance metrics and trends
-- 🚛 **Logistics Coordination:** Optimize transportation and distribution
-- 📄 **Farmer Management:** Maintain comprehensive farmer database
+- 📊 **Member Management:** Track all farmer members and their production
+- 📦 **Procurement Hub:** Streamline collection from multiple farmers
+- 🏭 **Processing Control:** Monitor oil extraction and quality
+- 📈 **Analytics Dashboard:** Performance insights and trend analysis
+- 🚛 **Logistics Coordination:** Manage transportation and distribution
 
-### 🏭 For Processors
+### 🏭 **Processors** - Complete Production Management
 
-- 🔍 **Quality Monitoring:** Real-time quality control and testing
-- ⚙️ **Production Tracking:** Monitor processing lines and efficiency
-- 📈 **Inventory Management:** Track raw materials and finished goods
-- 🔗 **Supply Chain Integration:** Seamless coordination with suppliers and buyers
-- 📊 **Compliance Reports:** Automated regulatory reporting
+- ⚙️ **Production Tracking:** Monitor processing lines and efficiency metrics
+- 🔍 **Quality Control:** Real-time testing and compliance monitoring
+- 📦 **Inventory Management:** Track raw materials and finished products
+- 📊 **Compliance Reports:** Automated regulatory documentation
+- 🔗 **Supply Chain Integration:** Seamless coordination with suppliers
 
-### 🏪 For Retailers
+### 🏪 **Retailers** - Smart Inventory & Sales
 
-- 📦 **Inventory Management:** Real-time stock tracking and reordering
-- 🚚 **Order Tracking:** Monitor shipments from source to store
-- 🔍 **Product Traceability:** Verify product origin and quality
+- 📦 **Stock Management:** Real-time inventory tracking and auto-reorder
+- 🚚 **Order Tracking:** Monitor shipments from farm to store
+- 🔍 **Product Authentication:** Verify product origin and quality
 - 💰 **Pricing Intelligence:** Market-based pricing recommendations
-- 📊 **Sales Analytics:** Track performance and customer preferences
+- 📊 **Sales Analytics:** Customer preferences and performance insights
 
-### 👔 For Policy Makers
+### 👔 **Policy Makers** - Data-Driven Governance
 
-- 📊 **Real-Time Dashboards:** Monitor nationwide production and supply
-- 📈 **Predictive Analytics:** Forecast demand-supply gaps and plan interventions
-- 🗺️ **Regional Insights:** State-wise performance tracking
+- 📊 **National Dashboard:** Real-time production and supply monitoring
+- 🗺️ **Regional Insights:** State-wise performance and gap analysis
+- 📈 **Predictive Models:** Forecast demand-supply gaps and plan interventions
 - 🎯 **Policy Simulation:** Test policy impacts before implementation
-- 📉 **Price Monitoring:** Track market prices and prevent volatility
+- 📉 **Price Monitoring:** Track market volatility and prevent shocks
 
-### 🚛 For Logistics Partners
+### 🚛 **Logistics Partners** - Optimized Operations
 
-- 🗺️ **Warehouse Mapping:** Interactive map of storage facilities
-- 📦 **Capacity Planning:** Optimize warehouse utilization
+- 🗺️ **Interactive Maps:** Warehouse locations and capacity visualization
+- 📊 **Capacity Planning:** Optimize storage and transportation
 - 🚚 **Fleet Management:** Track vehicles and optimize routes
-- 📊 **Performance Analytics:** Monitor delivery efficiency
-- 🔔 **Alert System:** Proactive notifications for critical events
-
-### 🔐 For Administrators
-
-- 👥 **User Management:** Manage all platform users and permissions
-- 🔗 **Blockchain Dashboard:** Monitor transaction integrity
-- 📢 **Notification System:** Broadcast important updates
-- 📊 **System Analytics:** Platform usage and performance metrics
-- ⚙️ **Configuration:** System settings and customization
+- 📱 **Mobile Tracking:** Real-time shipment monitoring
+- 🔔 **Smart Alerts:** Proactive notifications for delays or issues
 
 ---
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- **Flutter 3.13+** - Cross-platform mobile & web development
-- **Dart 3.1+** - Programming language
-- **Material Design 3** - Modern UI components
-- **Provider** - State management
+### 📱 **Frontend**
+- **Flutter 3.13+** - Cross-platform development (Android, iOS, Web)
+- **Material Design 3** - Modern, accessible UI components
+- **Provider** - Efficient state management
 
-### Backend & APIs
-- **Google Gemini AI** - AI-powered recommendations and analytics
-- **Google Maps API** - Location services and mapping
-- **REST APIs** - Backend integration
+### 🧠 **AI & Analytics**
+- **Google Gemini AI** - Advanced recommendation engine
+- **Custom ML Models** - Price prediction and demand forecasting
+- **FL Chart** - Interactive data visualizations
 
-### Data Visualization
-- **FL Chart** - Interactive charts and graphs
-- **Custom Painters** - Vector graphics for branding
+### 🔗 **Blockchain & Security**
+- **Immutable Ledger** - Supply chain transparency
+- **QR Code Integration** - Product traceability
+- **Secure Authentication** - Multi-role access control
 
-### Features & Integrations
-- **QR Code** - Product traceability
-- **Location Services** - GPS tracking
-- **Image Picker** - Document uploads
-- **URL Launcher** - External link handling
-- **Shared Preferences** - Local data storage
-
-### Development Tools
-- **Git** - Version control
-- **Flutter DevTools** - Debugging and profiling
-- **Android Studio / VS Code** - IDEs
+### 🌐 **Integrations**
+- **Google Maps API** - Location services and warehouse mapping
+- **Weather APIs** - Real-time agricultural advisories
+- **Payment Gateways** - Secure transactions
+- **Government APIs** - Scheme integration and compliance
 
 ---
 
-## 📦 Installation
+## 👥 For Developers
 
-### Prerequisites
+### 🚀 Quick Start
 
-- Flutter SDK (3.13 or higher)
-- Dart SDK (3.1 or higher)
-- Android Studio / Xcode (for mobile)
-- Git
-
-### Setup Instructions
-
-1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/agritrace.git
+# Clone repository
+git clone https://github.com/shaikhakramshakil/Agritrace.git
 cd agritrace
-```
 
-2. **Install dependencies**
-```bash
+# Install dependencies
 flutter pub get
-```
 
-3. **Configure environment variables**
+# Create environment file
+cp .env.example .env
+# Add your API keys to .env
 
-Create a `.env` file in the root directory:
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-GOOGLE_MAPS_API_KEY=your_maps_api_key_here
-```
-
-4. **Run the app**
-
-For Android:
-```bash
+# Run the app
 flutter run
 ```
 
-For Web:
-```bash
-flutter run -d chrome
-```
+### 📦 Build Commands
 
-For iOS (macOS only):
 ```bash
-flutter run -d ios
-```
+# Debug APK
+flutter build apk --debug
 
-### Build Release APK
-
-**Optimized single APK:**
-```bash
+# Release APK (Universal)
 flutter build apk --release
-```
 
-**Split APKs by architecture (recommended):**
-```bash
+# Optimized APKs (Recommended)
 flutter build apk --split-per-abi --release
-```
 
-Output location: `build/app/outputs/flutter-apk/`
+# Web Version
+flutter build web
 
-**For Google Play Store:**
-```bash
+# Play Store Bundle
 flutter build appbundle --release
 ```
 
----
+### 🔧 Development Setup
 
-## 👥 User Roles
+1. **Prerequisites:**
+   - Flutter SDK 3.13+
+   - Android Studio / VS Code
+   - Git
 
-AgriTrace supports **7 distinct user roles**, each with tailored features:
+2. **API Keys Required:**
+   - Google Gemini AI API key
+   - Google Maps API key (optional for maps)
 
-| Role | Primary Focus | Key Features |
-|------|--------------|--------------|
-| 🌾 **Farmer** | Crop planning & market access | AI advisories, market linkage, weather alerts |
-| 🏢 **FPO** | Farmer aggregation & coordination | Procurement, processing, inventory management |
-| 🏭 **Processor** | Oil extraction & quality | Production tracking, quality control, compliance |
-| 🏪 **Retailer** | Distribution & sales | Inventory, order tracking, traceability |
-| 📊 **Policy Maker** | Governance & planning | Analytics dashboards, price forecasting, policy tools |
-| 🚛 **Logistics** | Transportation & warehousing | Warehouse mapping, fleet management, tracking |
-| 🔐 **Admin** | Platform management | User management, blockchain monitoring, system config |
-
----
-
-## 📸 Screenshots
-
-### Onboarding & Authentication
-- Splash Screen with animated logo
-- Role selection interface
-- Optional login/signup
-
-### Farmer Interface
-- AI-powered crop planning dashboard
-- Market linkage with real-time prices
-- Weather alerts and advisories
-- Insurance and credit access
-
-### Policy Maker Dashboard
-- Real-time KPI monitoring
-- Production trend charts
-- Regional performance maps
-- AI-powered insights
-
-### Logistics Management
-- Interactive warehouse map
-- Capacity utilization tracking
-- Route optimization
-- Fleet monitoring
-
----
-
-## 🏗️ Architecture
-
-### Platform Architecture
-
+3. **Project Structure:**
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     AgriTrace Platform                       │
-├─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  ┌────────────┐  ┌────────────┐  ┌─────────────────────┐   │
-│  │   Mobile   │  │    Web     │  │  Admin Dashboard    │   │
-│  │    Apps    │  │  Portal    │  │                     │   │
-│  └──────┬─────┘  └──────┬─────┘  └──────────┬──────────┘   │
-│         │                │                   │               │
-│         └────────────────┴───────────────────┘               │
-│                          │                                   │
-│         ┌────────────────▼────────────────────┐              │
-│         │    API Gateway & Load Balancer      │              │
-│         └────────────────┬────────────────────┘              │
-│                          │                                   │
-│    ┌─────────────────────┼─────────────────────┐            │
-│    │                     │                     │            │
-│    ▼                     ▼                     ▼            │
-│ ┌──────┐          ┌───────────┐         ┌──────────┐       │
-│ │  AI  │          │ Blockchain│         │ Database │       │
-│ │Engine│          │  Ledger   │         │  (Cloud) │       │
-│ └──────┘          └───────────┘         └──────────┘       │
-│                                                              │
-│ ┌─────────────────────────────────────────────────────────┐│
-│ │          External Integrations                           ││
-│ │  • Agri-Stack  • Payment Gateways  • Weather APIs       ││
-│ │  • Satellite Data  • Insurance Systems  • Banks         ││
-│ └─────────────────────────────────────────────────────────┘│
-└─────────────────────────────────────────────────────────────┘
+lib/
+├── main.dart                 # App entry point
+├── screens/                  # All UI screens
+│   ├── farmer/              # Farmer-specific screens
+│   ├── fpo/                 # FPO screens
+│   ├── processor/           # Processor screens
+│   └── ...                  # Other roles
+├── services/                # API services
+├── widgets/                 # Reusable components
+└── utils/                   # Helper functions
 ```
 
-### Data Flow
+### 🧪 Testing
 
-1. **User Interaction** → Mobile/Web Interface
-2. **API Gateway** → Routes requests to appropriate services
-3. **AI Engine** → Processes analytics and recommendations
-4. **Blockchain** → Records transactions immutably
-5. **Database** → Stores operational data
-6. **External APIs** → Weather, payments, satellite data
+```bash
+# Run tests
+flutter test
 
----
+# Generate coverage
+flutter test --coverage
 
-## 🎯 How AgriTrace Solves the Problem
-
-### 📊 Increasing Production Efficiency
-
-- **AI Crop Planning:** Recommends optimal crops based on soil, weather, and market demand → Increases yield by 15-20%
-- **Precision Agriculture:** Provides actionable insights for pest management and irrigation → Reduces crop loss by 25%
-- **Best Practice Sharing:** Connects farmers with successful farming techniques → Improves adoption of modern methods
-
-### 🔗 Bridging the Value Chain Gap
-
-- **Direct Market Linkage:** Eliminates intermediaries, ensuring fair prices for farmers → Increases farmer income by 18-22%
-- **Transparent Pricing:** Real-time market data prevents exploitation → Reduces price volatility exposure
-- **Blockchain Traceability:** Builds consumer trust and enables premium pricing → Increases market access
-
-### 📉 Reducing Post-Harvest Losses
-
-- **Warehouse Optimization:** Real-time capacity monitoring prevents storage delays → Reduces losses by 15%
-- **Logistics Efficiency:** Route optimization and fleet tracking → Reduces transportation time by 20%
-- **Quality Monitoring:** Early detection of quality issues → Prevents spoilage and wastage
-
-### 💰 Improving Financial Inclusion
-
-- **Performance-Based Credit:** Links credit access to farming performance → Increases loan approval rates
-- **Insurance Facilitation:** Simplifies insurance claim process → Reduces claim settlement time by 40%
-- **Digital Payments:** Enables instant, transparent transactions → Eliminates payment delays
-
-### 📈 Enabling Data-Driven Policy Making
-
-- **Real-Time Dashboards:** Provides policymakers with live production data → Enables proactive interventions
-- **Predictive Analytics:** Forecasts demand-supply gaps 6 months in advance → Prevents market shocks
-- **Regional Insights:** Identifies underperforming regions for targeted support → Optimizes resource allocation
-
-### 🎯 Supporting National Mission Goals
-
-AgriTrace directly contributes to achieving the **National Mission on Edible Oils–Oil Palm (NMEO-OP)** target of:
-
-- **Doubling production to 69 million tonnes by 2030-31**
-- **Reducing import dependency from 60% to 30%**
-- **Saving ₹50,000+ crore in foreign exchange annually**
-- **Increasing farmer incomes by 25%**
-- **Creating 10 lakh+ jobs across the value chain**
+# Analyze code
+flutter analyze
+```
 
 ---
 
-## 🚀 Impact Metrics
+## 🎯 Impact & Goals
 
-### Current Production (2024-25)
-- **42.61 million tonnes** oilseed production
-- **27.8 million tonnes** domestic consumption
-- **55-60% import dependency**
-- **₹1+ lakh crore** annual import bill
+### 📊 **How AgriTrace Solves India's Edible Oil Crisis**
 
-### Projected Impact with AgriTrace (By 2030)
+| Challenge | AgriTrace Solution | Expected Impact |
+|-----------|-------------------|-----------------|
+| **Production Efficiency** | AI crop planning + precision agriculture | **+15-20% yield increase** |
+| **Value Chain Gaps** | Direct market linkage + transparent pricing | **+18-22% farmer income** |
+| **Post-Harvest Losses** | Smart logistics + warehouse optimization | **-15% reduction in losses** |
+| **Financial Inclusion** | Performance-based credit + simplified insurance | **+40% faster claim settlements** |
+| **Policy Making** | Real-time dashboards + predictive analytics | **6 months advance forecasting** |
 
-| Metric | Current | Target | AgriTrace Impact |
-|--------|---------|--------|------------------|
-| Production | 42.61 MT | 69 MT | **+15% efficiency gain** |
-| Import Dependency | 60% | 30% | **-30% reduction** |
-| Post-Harvest Loss | 15% | 5% | **-10% reduction** |
-| Farmer Income | Baseline | +25% | **+18-22% increase** |
-| Market Linkage | 30% | 80% | **Direct access for 50%+** |
-| Digital Adoption | 20% | 75% | **Platform adoption by 60%** |
+### 🎯 **National Mission Alignment**
 
----
+Supporting **NMEO-OP (National Mission on Edible Oils–Oil Palm)** goals:
 
-## 🔮 Future Enhancements
+- **🎯 Production Target:** From 42.61 MT → 69 MT by 2030-31
+- **💰 Import Reduction:** From 60% → 30% dependency
+- **💸 Foreign Exchange:** Save ₹50,000+ crore annually
+- **👨‍🌾 Farmer Income:** Increase by 25% through direct market access
+- **🏭 Job Creation:** 10 lakh+ jobs across the value chain
 
-- [ ] Integration with Agri-Stack (National Digital Agriculture Infrastructure)
-- [ ] Satellite imagery analysis for crop health monitoring
-- [ ] IoT sensor integration for real-time soil and weather data
-- [ ] Multilingual support (15+ Indian languages)
-- [ ] Voice-based interface for low-literacy farmers
-- [ ] Advanced ML models for disease prediction
-- [ ] Carbon credit tracking for sustainable farming
-- [ ] Export market linkage for surplus production
-- [ ] Farmer training modules (video content)
-- [ ] Community forums for knowledge sharing
+### 📈 **Projected Impact Timeline**
+
+```
+2025: Platform Launch → 1000+ farmers onboarded
+2026: Regional Expansion → 50,000+ users across 5 states  
+2027: National Rollout → 500,000+ farmers connected
+2028: International Export → Surplus production for export
+2030: Mission Achieved → 69 MT production target reached
+```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions from developers, farmers, and agriculture experts!
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
+### 🛠️ For Developers
 
-### Development Guidelines
+```bash
+# Fork the repository on GitHub
+git clone https://github.com/yourusername/agritrace.git
 
-- Follow Flutter/Dart style guide
-- Write meaningful commit messages
-- Add unit tests for new features
-- Update documentation as needed
-- Ensure code passes `flutter analyze`
+# Create feature branch
+git checkout -b feature/amazing-feature
 
----
+# Make changes and commit
+git commit -m "Add amazing feature"
 
-## 📄 License
+# Push and create Pull Request
+git push origin feature/amazing-feature
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### 📝 Guidelines
 
----
+- **Code Style:** Follow Flutter/Dart conventions
+- **Testing:** Add unit tests for new features
+- **Documentation:** Update README for major changes
+- **Issues:** Use GitHub Issues for bug reports and feature requests
 
-## 📞 Contact & Support
+### 🌾 For Agriculture Experts
 
-- **Email:** support@agritrace.in
-- **Website:** https://agritrace.in
-- **Twitter:** [@AgriTrace](https://twitter.com/agritrace)
-- **LinkedIn:** [AgriTrace](https://linkedin.com/company/agritrace)
-
----
-
-## 🙏 Acknowledgments
-
-- **Ministry of Agriculture & Farmers Welfare, Government of India**
-- **National Mission on Edible Oils–Oil Palm (NMEO-OP)**
-- **All farmers and stakeholders** who provided valuable feedback
-- **Google Gemini AI** for powering intelligent recommendations
-- **Flutter & Dart teams** for excellent framework
+- **Feedback:** Share insights on farming practices and market dynamics
+- **Testing:** Help test the app with real-world scenarios
+- **Content:** Contribute to crop planning algorithms and best practices
+- **Outreach:** Help onboard farmers and FPOs in your region
 
 ---
 
-## 📊 Project Status
+## 📞 **Contact & Support**
 
-- ✅ **Phase 1:** Core platform development - **Completed**
-- ✅ **Phase 2:** AI integration & analytics - **Completed**
-- ✅ **Phase 3:** Blockchain implementation - **Completed**
-- 🚧 **Phase 4:** Field pilots with FPOs - **In Progress**
-- 📋 **Phase 5:** National rollout - **Planned Q3 2025**
+### 🐛 **Found a Bug?**
+- **GitHub Issues:** [Report here](https://github.com/shaikhakramshakil/Agritrace/issues)
+- **Email:** issues@agritrace.com
+
+### 💡 **Have a Suggestion?**
+- **Feature Requests:** [Submit here](https://github.com/shaikhakramshakil/Agritrace/issues/new)
+- **Email:** suggestions@agritrace.com
+
+### 🤝 **Partnership Inquiries**
+- **Email:** partnerships@agritrace.com
+- **LinkedIn:** [Connect with us](https://linkedin.com/company/agritrace)
+
+---
+
+## 🙏 **Acknowledgments**
+
+- **🏛️ Ministry of Agriculture & Farmers Welfare, Government of India**
+- **🌾 National Mission on Edible Oils–Oil Palm (NMEO-OP)**
+- **👨‍🌾 Farmers and FPOs** who provided invaluable feedback
+- **🤖 Google Gemini AI** for powering intelligent recommendations
+- **💙 Flutter & Dart teams** for the excellent framework
+
+---
+
+## 📊 **Project Roadmap**
+
+- ✅ **Phase 1:** Core platform development *(Completed)*
+- ✅ **Phase 2:** AI integration & analytics *(Completed)*
+- ✅ **Phase 3:** Blockchain implementation *(Completed)*
+- 🚧 **Phase 4:** Field pilots with FPOs *(In Progress)*
+- 📋 **Phase 5:** National rollout *(Planned Q3 2025)*
+- 🌍 **Phase 6:** International expansion *(2026)*
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for India's Farmers**
+### **🌾 Built with ❤️ for India's Farmers 🇮🇳**
 
-**Empowering India's Edible Oil Future** 🌾
+**"From Farm to Fork - Empowering India's Edible Oil Future"**
 
-[⬆ Back to Top](#-agritrace---ai-enabled-edible-oil-value-chain-platform)
+---
+
+**⭐ Star this repository if you believe in digital agriculture!**
+
+**📱 [Download AgriTrace](https://github.com/shaikhakramshakil/Agritrace/releases) | 🐛 [Report Issues](https://github.com/shaikhakramshakil/Agritrace/issues) | 🤝 [Contribute](https://github.com/shaikhakramshakil/Agritrace/blob/main/CONTRIBUTING.md)**
 
 </div>
