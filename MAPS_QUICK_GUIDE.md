@@ -295,7 +295,7 @@ GoogleMap(
 
 ## 🔐 API Key Information
 
-**Current API Key:** `AIzaSyBACfCrohI6uhi8Qdb6oqOGjnsrBRikm5w`
+**Current API Key:** `[REMOVED FOR SECURITY - Set your own key]`
 
 **Configured In:**
 - `web/index.html` (for Web platform)
